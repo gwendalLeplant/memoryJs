@@ -2,6 +2,7 @@ function melange(tableau) {
     let tableau2 = [];
     let taille = tableau.length;
     for (let i = 0; i < taille; i++) {
+        let x;
         do {
             x = Math.floor(Math.random() * taille);
         } while (tableau2[x] != undefined);
